@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rootkits</title>
+   
+      
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0c0c0c;
+        }
+        header {
+            background-color: #32e0f7;
+            color: #181818;
+            text-align: center;
+            padding: 20px 0;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        } 
+        h1, h2 {
+            text-align: center;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: #fff;
+          
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="ciberceguridad.html">Ciberseguridad</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="paginaprincipal.html">Inicio</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    <header>
+        <h1>ROOTKITS</h1>
+        
+  </header>
+  <main>
+     <h2>Historia de los rootkits</h2>
+     <p>La historia de los rootkits informáticos se remonta a las décadas de 1980 y 1990, cuando los hackers comenzaron a desarrollar técnicas para ocultar su presencia en sistemas informáticos con el fin de mantener el acceso no autorizado y el control sobre ellos.</p>
+
+     <center><img src="roT.jpeg" /></center> 
+        <h2>¿Qué son los rootkits?</h2>
+        <p>Un rootkit es un término que se aplica a un tipo de malware, diseñado para infectar un PC, el cual permite al hacker instalar diferentes herramientas que le dan acceso remoto al ordenador. Este malware se oculta en la máquina, dentro del sistema operativo y sortea los obstáculos como aplicaciones antimalware o algunos productos de seguridad.</p>
+        <p>Estos programas maliciosos son utilizados por hackers y ciberdelincuentes para obtener acceso no autorizado a sistemas informáticos y realizar diversas actividades ilegales, como robo de información, espionaje y sabotaje. El rootkit contiene diferentes herramientas maliciosas como un keylogger, un módulo para robar los números de tarjeta o cuentas bancarias.</p>
+       <center><img src="rooot.jpeg" /></center> 
+        <h2>¿cómo infectan el equipo?</h2>
+        <p>Los rootkits se pueden instalar siguiendo varios métodos, pero el más común es aprovechando una vulnerabilidad en el sistema operativo o en una aplicación del equipo. Los piratas informáticos dirigen sus atacantes contra vulnerabilidades conocidas y desconocidas en el sistema operativo y aplicaciones; usando un exploit que controle la máquina. Luego, instalan el rootkit y configuran unos componentes que proporcionan acceso remoto al PC.</p>
+       
+        <h2>Características principales</h2>
+        <ul>
+            <li>Ocultamiento: Los rootkits están diseñados para ocultar su presencia y la presencia de otros programas maliciosos en el sistema, lo que los hace difíciles de detectar.</li>
+            <li>Privilegios elevados: Los rootkits suelen aprovechar vulnerabilidades en el sistema operativo para obtener privilegios elevados y acceso completo al sistema.</li>
+            <li>Permanencia: Los rootkits están diseñados para ser persistentes en el sistema, incluso después de reinicios o actualizaciones del sistema.</li>
+            <li>Capacidad de camuflaje: Los rootkits pueden camuflarse como componentes legítimos del sistema o utilizar técnicas de ofuscación para evitar la detección por parte de software antivirus y otras herramientas de seguridad.</li>
+            <li>Acceso remoto: Algunos rootkits incluyen capacidades de acceso remoto, lo que permite a los atacantes controlar el sistema comprometido de forma remota.</li>
+            <li>Fácil acceso para atacantes: Una vez que un rootkit ha comprometido un sistema, puede facilitar el acceso a otros malware o permitir que los atacantes realicen acciones adicionales, como instalar puertas traseras o robar información confidencial.</li>
+            <li>Dificultad de detección y eliminación: Debido a su capacidad para ocultarse y persistir en el sistema, los rootkits pueden ser difíciles de detectar y eliminar. Requieren técnicas especializadas de detección y limpieza para ser eliminados por completo del sistema.</li>
+            <center><img src="segrot.png" width="250" height="250" /></center> 
+            <h2>Tipos de rootkits</h2>
+            <p>Los rootkit pueden clasificarse en cinco tipos distintos: integrados en el núcleo, a nivel de aplicación, híbridos, de firmware y virtuales, en función de la forma en la que se despliega el ataque y cuál es el propósito del rootkit.</p>
+            <ul>
+                <li>Rootkits de kernel: Manipulan el núcleo del sistema operativo para ocultar su presencia.Los rootkits del kernel son difíciles de detectar porque tienen los mismos privilegios del sistema operativo y, por lo tanto, pueden interceptar o subvertir las operaciones del sistema operativo.</li>
+                <li>Rootkits de firmware: Estos rootkits afectan el hardware o firmware, como enrutadores, tarjetas de red, discos duros y el software operativo de entrada básica (BIOS) del sistema.</li>
+                <li>Rootkits virtuales: Estos rootkits alojan el sistema operativo de destino como una máquina virtual y, por lo tanto, pueden interceptar todas las llamadas de hardware realizadas por el sistema operativo de destino.</li>
+                <li>Rootkits Híbridos:introducen algunos de sus componentes en el nivel de usuario y otros en el kernel. De esta forma, los rootkits híbridos tienen la estabilidad de los rootkits de modo de usuario, pero también el sigilo potenciado de los rootkits del kernel. </li>
+            </ul>
+            <p>.</p>
+            <center><img src="rttt.jpeg" /></center> 
+            <h2>¿Cómo detectar un rootkit?</h2>
+      <li>Para detectar una infección de rootkit, la mejor herramienta es el análisis de rootkit, una solución que suele estar integrada en todos los antivirus actuales.</li>
+      <li>Otra estrategia empleada para detectar rootkits es el análisis de comportamiento. En lugar de buscar el rootkit, busca comportamientos similares a los de un rootkit. Los análisis dirigidos funcionan bien si sabes que el sistema se comporta de manera extraña.</li>
+        
+      <h2>¿Cómo prevenir ser infectado?</h2>
+      <li>Leer el correo electrónico dos veces y observar la gramática utilizada en un correo electrónico antes de hacer clic en cualquier enlace.</li>
+      <li>Descarga los controladores de computadora autorizados. </li>
+      <li>Actualiza el SO, el navegador y el software de seguridad.</li>
+      <li>No descargues aplicaciones de lugares no oficiales.</li>
+      <li>No descargue contenido pirateado de lugares poco fiables.</li>
+      <p>.</p>
+      <center><img src="robo.png" /></center> 
+
+      
+    </main>
+       
+        </ul>
+        
+    </body>
+</html>

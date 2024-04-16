@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bomba logica - Ciberseguridad</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #0e0d0d;
+      color: #111111; 
+    }
+    .container {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+    .img-container {
+      max-width: 400px; 
+      margin: 0 auto; 
+      margin-bottom: 20px; 
+    }
+    h3 {
+      margin-top: 20px; 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">Ciberseguridad</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="paginaprincipal.html">Inicio</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<center>
+<div class="container">
+  <div id="ransomware">
+    <center><h3>¿Qué es la bomba logica?</h3></center> 
+    <div class="img-container">
+      <img src="Imagenes/bombalogica1.webp" class="img-fluid" alt="Ransomware">
+    </div>
+    <p>Una bomba lógica, también conocida como "trapdoor" o "backdoor", es una pieza de código malicioso diseñada para activarse en respuesta a una condición específica o evento. Estas condiciones pueden incluir una fecha y hora específicas, la ejecución de un programa en particular, o la presencia o ausencia de ciertas condiciones en un sistema informático.</p>
+  
+  <p>La función principal de una bomba lógica es causar daño o permitir el acceso no autorizado al sistema en el que está presente. Por ejemplo, una bomba lógica podría estar diseñada para borrar archivos críticos, corromper datos, o abrir una puerta trasera que permite a un atacante acceder al sistema de forma remota.</p>
+  <p>Las bombas lógicas pueden ser difíciles de detectar, ya que a menudo están diseñadas para pasar desapercibidas durante períodos prolongados de tiempo antes de activarse. Esto les permite a los atacantes infiltrarse en un sistema y causar daño en el momento oportuno, lo que puede hacer que sea más difícil para las víctimas identificar la fuente del problema. </p>
+  <p>En resumen, una bomba lógica es una forma de código malicioso que se activa bajo ciertas condiciones específicas para causar daño o facilitar el acceso no autorizado a un sistema informático. Son una amenaza seria en el ámbito de la ciberseguridad y requieren medidas proactivas para prevenir su instalación y mitigar su impacto si se activan.</p>
+
+    <center><h3>Secuelas</h3></center> 
+    <ul>
+      <div class="img-container">
+        <img src="Imagenes/bombalogica2.webp" class="img-fluid" alt="Ransomware">
+      </div>
+      <li><strong>1. Daño a la integridad de los datos:</strong> La bomba lógica puede estar diseñada para alterar, eliminar o corromper datos críticos. Esto puede conducir a la pérdida de información valiosa o confidencial, así como a la pérdida de confianza en la integridad de los datos almacenados.</li>
+      <li><strong>2. Disrupción de operaciones:</strong> Si la bomba lógica afecta a sistemas o redes importantes para las operaciones de una organización, puede causar interrupciones significativas en la capacidad de la organización para llevar a cabo sus funciones normales. Esto puede resultar en pérdidas financieras, retrasos en los proyectos y una disminución de la productividad. </li>
+      <li><strong>3. Exposición a vulnerabilidades adicionales:</strong> La presencia de una bomba lógica en un sistema puede indicar que existen vulnerabilidades de seguridad subyacentes que fueron explotadas para introducir el código malicioso. Esto podría llevar a más ataques cibernéticos o comprometer la seguridad de otros sistemas conectados.</li>
+      <li><strong>4. Reputación dañada:</strong> Las organizaciones afectadas por una bomba lógica pueden sufrir un daño significativo en su reputación, especialmente si la brecha de seguridad se hace pública. Los clientes, socios comerciales y otras partes interesadas pueden perder la confianza en la capacidad de la organización para proteger sus datos y sistemas, lo que puede tener consecuencias a largo plazo en términos de relaciones comerciales y percepción pública.</li>
+      <div class="img-container">
+        <img src="Imagenes/bomba-ransomware-ransom-note.webp" class="img-fluid" alt="Ransomware">
+      </div>
+    </ul>
+
+    <center><h3>Ciberataque en el banco de santander</h3></center>
+    <div class="img-container">
+      <img src="Imagenes/bombalogica3.webp" class="img-fluid" alt="Ransomware">
+    </div>
+    <p>El Tribunal Supremo confirmó la condenade tres años de cárcel para un informáticoque paralizó sus sistemas durante unasemana con una "bomba lógica" despuésde ser despedido de su empresasubcontratada. El ataque afectó a miles deordenadores y cajeros automáticos,resultando en daños financierossignificativos.</p>
+
+    <center><h3>Prevención</h3></center> 
+    <ul>
+      <div class="img-container">
+        <img src="Imagenes/bombalogica5.webp" class="img-fluid" alt="Ransomware">
+      </div>
+      <li>Asegúrate de que todos los sistemas operativos, aplicaciones y programas estén actualizados con los últimos parches de seguridad. Las actualizaciones frecuentes pueden corregir vulnerabilidades conocidas que podrían ser aprovechadas por los atacantes.</li>
+      <li>Implementa medidas de seguridad robustas: Utiliza firewalls, sistemas de detección de intrusiones, antivirus y antimalware para proteger tu red y sistemas contra amenazas conocidas y desconocidas. Configura adecuadamente estas herramientas y mantén sus definiciones actualizadas.</li>
+      <li>Limita el acceso a los sistemas y datos solo a aquellos usuarios que lo necesiten para realizar sus funciones. Además, utiliza el principio de "menor privilegio", que significa que los usuarios solo tienen acceso a la información y recursos que son necesarios para realizar su trabajo.</li>
+      <li>Realiza auditorías de seguridad periódicas para identificar posibles vulnerabilidades en tus sistemas y redes. Esto puede incluir análisis de vulnerabilidades, pruebas de penetración y revisiones de configuración de seguridad.</li>
+    </ul>
+
+    <center><h3>Etica</h3></center>
+    <ul>
+      <div class="img-container">
+        <img src="Imagenes/bombalogica4.webp" class="img-fluid" alt="Ransomware">
+      </div>
+      <li>Seguridad informática defensiva:Sistemas de defensa para detectaramenazas cibernéticas, como intentosde malware.</li>
+      <div class="img-container">
+        <img src="Imagenes/bombalogica2.webp" class="img-fluid" alt="Ransomware">
+      </div>
+      <li>CryptoLocker: Otra variante de ransomware que cifra los archivos del usuario y exige un rescate.</li>
+      <div class="img-container">
+        <img src="Imagenes/bombalogica7.webp" class="img-fluid" alt="Ransomware">
+      </div>
+      <li> Automatizacion de procesos de seguridad: Automatizar procesos de respuesta a incidentes, activarse para bloquear direcciones IP maliciosas</li>
+    </ul>
+  </div>
+</div>
+</center>
+
+<script src="https://elhacker.info/manuales/Virus/Creacionbl1.pdf"></script>
+<script src="https://www.avg.com/es/signal/what-is-a-logic-bomb-virus"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
